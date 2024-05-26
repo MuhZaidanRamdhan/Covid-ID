@@ -1,0 +1,150 @@
+.container {
+  background-color: #5a5a5a0a;
+  padding: 2rem 0;
+}
+
+.covids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid__right {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.covid__right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.covid__right h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #06d6a0;
+}
+
+.form__title {
+  text-align: left;
+  color: #06d6a0;
+}
+
+.covid__image {
+  border-radius: 25px;
+}
+
+.form__jumlah,
+.form__status,
+.form__select {
+  background: #fff;
+  padding: 0.1rem 0.5rem;
+  color: #06d6a0;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #06d6a0;
+}
+
+.form__submit {
+  background-color: #06d6a0;
+  color: #fff;
+  padding: 0.1rem;
+  font-size: 15px;
+  border: none;
+  margin-top: 1.5rem;
+  border-radius: 25px;
+}
+
+.covid__left {
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .covids {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .covid__right {
+    margin-top: 0;
+    flex-basis: 50%;
+  }
+
+  .covid__left {
+    flex-basis: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .covid__right h1 {
+    font-size: 3rem;
+  }
+
+  .form__jumlah,
+  .form__status,
+  .form__select {
+    padding: 0.5rem 1rem;
+  }
+
+  .form__title {
+    font-size: 1.5rem;
+  }
+
+  .form__jumlah,
+  .form__status,
+  .form__select {
+    margin-bottom: 1rem;
+    width: 500px;
+  }
+  .form__submit {
+    background-color: #06d6a0;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 20px;
+    margin-top: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .covid__image {
+    width: 600px;
+  }
+}
+
+@media (min-width: 922px) {
+  .covids {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .covid__right{
+    margin-top: -2rem;
+  }
+
+  .covid__image {
+    height: auto;
+    width: 500px;
+  }
+
+  .form__select {
+    margin-bottom: 0;
+  }
+
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+}

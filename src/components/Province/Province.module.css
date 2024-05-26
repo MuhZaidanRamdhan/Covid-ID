@@ -1,0 +1,55 @@
+.container {
+  padding: 2rem 0;
+}
+
+.provinces {
+  padding: 1rem;
+  text-align: center;
+}
+
+.provinces__title {
+  font-size: 2.5rem;
+  color: #06d6a0;
+}
+
+.provinces__subtitle {
+  color: #1db9df;
+}
+
+.province__data {
+  overflow-x: auto;
+}
+.province__table {
+  border: 2px #06d6a0 solid;
+  border-collapse: collapse;
+  overflow-y: auto;
+  width: 100%;
+  margin: 3rem 0;
+  font-size: 1rem;
+}
+
+.province__table thead tr {
+  background-color: #fff;
+  color: #06D6A0;
+}
+
+.province__table th,
+.province__table td {
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .province__data {
+    overflow-y: auto;
+  }
+}
+
+
+
+@media (min-width: 922px) {
+  .province__data {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+}

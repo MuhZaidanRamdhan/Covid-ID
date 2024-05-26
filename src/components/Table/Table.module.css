@@ -1,0 +1,21 @@
+.province__table{
+  border: 2px #06D6A0 solid;
+  border-collapse: collapse;
+  margin: 3rem 0;
+  min-width: 700px;
+  font-size: 1.5rem;
+}
+
+.province__table thead tr {
+  background-color: #06D6A0;
+  color: #fff;
+}
+
+.province__table th, .province__table td {
+  padding: 1rem
+}
+
+@media (min-width: 922px) {
+  
+}
+

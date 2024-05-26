@@ -1,0 +1,53 @@
+.container {
+  background-color: #5a5a5a0a;
+  padding: 2rem 0;
+}
+
+.globals {
+  padding: 1rem;
+  text-align: center;
+}
+
+.globals__title {
+  font-size: 2.5rem;
+  color: #06D6A0;
+}
+
+.globals__subtitle {
+  color: #1db9df;
+}
+
+.global__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .global__data {
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 4rem 0;
+  }
+  .global__data {
+    gap: 50px;
+    max-width: 1200px;
+    margin: 3rem auto;
+    flex-basis: 25%;
+  }
+
+  
+}

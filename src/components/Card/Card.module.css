@@ -1,0 +1,32 @@
+.global__card {
+  margin-top: 3rem;
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: 768px) {
+  /*  */
+}
+@media (min-width: 992px) {
+  .global__card {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 300px;
+  }
+
+  .global__title {
+    font-size: 2rem;
+  }
+
+  .global__subtitle {
+    font-size: 2.5rem;
+    color: #06d6a0
+  }
+}
